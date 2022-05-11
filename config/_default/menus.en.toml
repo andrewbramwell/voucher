@@ -1,0 +1,124 @@
+############# English navigation ##############
+
+# main menu
+
+[[main]]
+name = "Features"
+url = "features/"
+weight = 1
+
+[[main]]
+name = "Pricing"
+url = "pricing/"
+weight = 1
+
+  [[main]]
+  weight = 2
+  name = "Sectors"
+  hasChildren = true
+
+
+    [[main]]
+    parent = "Sectors"
+    name = "Hotels & Resorts"
+    url = "hotel-gift-cards/"
+    weight = 1
+
+    [[main]]
+    parent = "Sectors"
+    name = "Restaurants"
+    url = "restaurant-gift-cards/"
+    weight = 2
+
+    [[main]]
+    parent = "Sectors"
+    name = "Health & Wellness"
+    url = "spa-and-clinic-gift-cards/"
+    weight = 3
+
+    [[main]]
+    parent = "Sectors"
+    name = "Leisure & Activity"
+    url = "leisure-and-activity-gift-cards/"
+    weight = 4
+
+[[main]]
+name = "FAQ's"
+url = "faq/"
+weight = 5
+
+
+
+[[main]]
+weight = 3
+name = "Company"
+hasChildren = true
+
+      [[main]]
+      parent = "Company"
+      name = "About Us"
+      url = "about-us/"
+      weight = 1
+
+      [[main]]
+      parent = "Company"
+      name = "Career"
+      url = "career/"
+      weight = 2
+
+
+
+
+
+
+
+### footer menus
+# footer_menu_1
+[[footer_menu_1]]
+name = "Hotel & Resorts"
+url = "hotel-gift-cards/"
+weight = 1
+
+[[footer_menu_1]]
+name = "Restaurants"
+url = "restaurant-gift-cards/"
+weight = 2
+
+[[footer_menu_1]]
+name = "Health & Wellness"
+url = "spa-and-clinic-gift-cards/"
+weight = 3
+
+[[footer_menu_1]]
+name = "Leisure & Activity"
+url = "leisure-and-activity-gift-cards/"
+weight = 4
+
+
+# footer_menu_2
+[[footer_menu_2]]
+name = "About Us"
+url = "about-us/"
+weight = 1
+
+[[footer_menu_2]]
+name = "Careers"
+url = "career/"
+weight = 2
+
+
+# footer_menu_3
+[[footer_menu_3]]
+name = "Contact"
+url = "contact/"
+weight = 1
+
+[[footer_menu_3]]
+name = "FAQ's"
+url = "faq/"
+weight = 2
+
+[[footer_menu_3]]
+name = "Help Desk"
+url = "https://www.help.voucherstore.io/"
+weight = 3

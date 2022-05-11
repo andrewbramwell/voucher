@@ -1,0 +1,84 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon.png"
+# logo
+logo = "images/logo.svg"
+# logo_light
+logo_light = "images/logo-light.svg"
+# use `x` with logo_width, example: "100x"
+logo_width = "147x"
+# logo text will only show when logo is missing.
+logo_text = "delta"
+# OpenGraph / Twitter Card metadata
+description = "This is meta description"
+author = "Themefisher"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+# contact info
+address = ""
+mobile = ""
+email = ""
+# contact form action
+contact_form_action = "#!" # contact form works with https://formspree.io or any formspree-alternatives
+
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script= ""
+
+# Main Sections
+mainSections= ["blog"]
+
+# career form action
+career_form_action = "#!" # career form works with https://formspree.io or any formspree-alternatives
+
+# Preloader
+[preloader]
+enable = false
+preloader = "images/logo.png" # use jpg, png, svg or gif format.
+
+
+
+[navigation_button_two]
+enable = true
+label = "Contact Us"
+link = "contact/"
+
+# Call to action
+[call_to_action]
+enable = true
+title = "Do You Want to Increase Your Revenue?"
+subtitle = "Get on board with the gift card and e-voucher platform that is accelerating revenue for hospitality and leisure businesses across Thailand. Voucherstore is the streamlined e-voucher software you have been waiting for."
+button_label = "Contact Us"
+button_link = "contact/"
+image = "images/cta.png"
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.facebook.com/voucherstore.io/"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#!"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#!"
+
+[[social]]
+title = "line"
+icon = "fab fa-line" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://line.me/R/ti/p/@561spntz"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/company/voucherstore-thai"

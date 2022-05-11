@@ -1,0 +1,134 @@
+############# Thai navigation ##############
+
+# main menu
+
+[[main]]
+name = "คุณสมบัติ"
+url = "features/"
+weight = 1
+
+[[main]]
+name = "ราคา"
+url = "pricing/"
+weight = 1
+
+  [[main]]
+  weight = 2
+  name = "ภาคส่วนธุรกิจ"
+  hasChildren = true
+
+
+    [[main]]
+    parent = "ภาคส่วนธุรกิจ"
+    name = "โรงแรมและรีสอร์ท"
+    url = "hotel-gift-cards/"
+    weight = 1
+
+    [[main]]
+    parent = "ภาคส่วนธุรกิจ"
+    name = "ร้านอาหาร"
+    url = "restaurant-gift-cards/"
+    weight = 2
+
+    [[main]]
+    parent = "ภาคส่วนธุรกิจ"
+    name = "เพื่อสุขภาพและเวลเนส"
+    url = "spa-and-clinic-gift-cards/"
+    weight = 3
+
+    [[main]]
+    parent = "ภาคส่วนธุรกิจ"
+    name = "กิจกรรมและนันทนาการ"
+    url = "leisure-and-activity-gift-cards/"
+    weight = 4
+
+[[main]]
+name = "คำถามที่พบบ่อย"
+url = "faq/"
+weight = 5
+
+
+
+[[main]]
+weight = 3
+name = "บริษัท "
+hasChildren = true
+
+      [[main]]
+      parent = "บริษัท "
+      name = "เกี่ยวกับเรา"
+      url = "about-us/"
+      weight = 1
+
+      [[main]]
+      parent = "บริษัท "
+      name = "ตำแหน่งงาน"
+      url = "career/"
+      weight = 2
+
+
+[[main]]
+name = "บทความ"
+url = "blog/"
+weight = 5
+
+
+
+
+### footer menus
+# footer_menu_1
+[[footer_menu_1]]
+name = "โรงแรมและรีสอร์ท"
+url = "hotel-gift-cards/"
+weight = 1
+
+[[footer_menu_1]]
+name = "ร้านอาหาร"
+url = "restaurant-gift-cards/"
+weight = 2
+
+[[footer_menu_1]]
+name = "เพื่อสุขภาพและเวลเนส"
+url = "spa-and-clinic-gift-cards/"
+weight = 3
+
+[[footer_menu_1]]
+name = "กิจกรรมและนันทนาการ"
+url = "leisure-and-activity-gift-cards/"
+weight = 4
+
+
+# footer_menu_2
+[[footer_menu_2]]
+name = "เกี่ยวกับเรา"
+url = "about-us/"
+weight = 1
+
+[[footer_menu_2]]
+name = "ตำแหน่งงาน"
+url = "career/"
+weight = 2
+
+
+# footer_menu_3
+[[footer_menu_3]]
+name = "ติดต่อเรา"
+url = "contact/"
+weight = 1
+
+[[footer_menu_3]]
+name = "คำถามที่พบบ่อย"
+url = "faq/"
+weight = 2
+
+[[footer_menu_3]]
+name = "Help Desk"
+url = "https://www.help.voucherstore.io/th/"
+weight = 3
+
+
+# footer_menu_4
+[[footer_menu_4]]
+name = "บทความ"
+url = "blog/"
+weight = 1

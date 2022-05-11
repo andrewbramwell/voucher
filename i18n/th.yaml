@@ -1,0 +1,83 @@
+- id: by
+  translation: โดย
+
+- id: admin
+  translation: แอดมิน
+
+- id: most_popular
+  translation: ที่นิยมมากที่สุด
+
+- id: recent_posts_of
+  translation: บทความล่าสุด โดย
+
+- id: related_posts
+  translation: บทความที่เกี่ยวข้อง
+
+- id: min_read
+  translation: Min Read
+
+- id: view_all_positions
+  translation: View All Positions
+
+- id: apply_now
+  translation: สมัครงานนี้
+
+- id: share_this_job
+  translation: "แชร์ตำแหน่งงานนี้:"
+
+- id: other_jobs
+  translation: ตำแหน่งงานอื่น
+
+- id: all_jobs
+  translation: ตำแหน่งงานทั้งหมด
+
+- id: fname
+  translation: ชื่อจริง
+
+- id: full_name
+  translation: ชื่อจริง-นามสกุล
+
+- id: lname
+  translation: นามสกุล
+
+- id: bizname
+  translation: ชื่อธุรกิจ
+
+- id: email
+  translation: ที่อยู่อีเมล
+
+- id: website
+  translation: เว็บไซต์
+
+- id: phone_number
+  translation: เบอร์โทรศัพท์
+
+- id: message
+  translation: ข้อความ
+
+- id: submit_now
+  translation: ยืืนยัน
+
+- id: cv_note
+  translation: อนุญาตเฉพาะไฟล์ pdf ขนาดไม่เกิน 2MB
+
+- id: upload_cv
+  translation: อัพโหลดประวัติการทำงาน CV
+
+- id: footer_menu_1_title
+  translation: ภาคส่วนธุรกิจ
+
+- id: footer_menu_2_title
+  translation: บริษัท
+
+- id: footer_menu_3_title
+  translation: ช่วยเหลือ
+
+- id: footer_menu_4_title
+  translation: แหล่งอ้างอิง
+
+- id: footer_menu_5_title
+  translation: Other Pages
+
+- id: search_faq
+  translation: ค้นหา FAQ..

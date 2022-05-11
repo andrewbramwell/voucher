@@ -1,0 +1,91 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+{{with .Params.about}}
+<section class="section">
+  <div class="container">
+    <div class="row g-6 align-items-center justify-content-between">
+      <div class="col-lg-12">
+        <div class="pe-0 pe-lg-5 text-left">
+          <h1 class="section-title h2">{{.subtitle | markdownify}}</h1>
+          <p class="mb-0">{{.content | markdownify}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+
+<section class="section pt-0">
+  <div class="container container-delta">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title text-center">
+          <h2 class="title mb-0">{{i18n `all_jobs`}}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row gy-3 justify-content-between">
+      {{ range .RegularPages }}
+      <div class="col-lg-4 col-md-6 features-box">
+        <a href="{{.RelPermalink}}" class="block rounded-md shadow-md text-reset p-3 p-md-4 d-block h-100">
+          <h3 class="h5">{{.Title | markdownify}}</h3>
+          <ul class="list-unstyled list-inline mb-0">
+            <li class="list-inline-item me-2">
+              <i class="fas fa-paper-plane small text-quaternary"></i>
+              <span style="margin-left:2px">{{.Params.job_nature | markdownify}}</span>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-tags small text-tertiary"></i>
+              <span style="margin-left:2px">{{.Params.category | markdownify}}</span>
+            </li>
+          </ul>
+          <hr class="my-3">
+          <span class="btn btn-sm btn-primary rounded-sm">Apply Now</span>
+        </a>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+
+
+
+
+
+{{with .Params.call_to_action}}
+{{if .enable}}
+<section class="section pb-0 call-to-action call-to-action-2">
+  <div class="container container-delta">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="block bg-white rounded-lg shadow">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-8">
+              <div class="content-block">
+                <h3 class="text-capitalize mb-2">{{.title | markdownify}}</h3>
+                <p class="mb-4">{{.subtitle | markdownify}}</p>
+                {{if .button_label}}
+                <a href="{{site.Params.call_to_action.button_link | relLangURL}}" class="btn btn-primary">{{.button_label}} <i class="arrow-right fas fa-arrow-right"></i></a>
+                {{end}}
+              </div>
+            </div>
+            {{with .image}}
+            <div class="col-lg-4">
+              {{$img:= resources.Get . }}
+              {{$img:= $img.Resize "425x"}}
+              {{$imgWebp:= $img.Resize "425x webp"}}
+              <img loading="lazy" decoding="async" class="rounded-lg img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="cta Image" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+            </div>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{end}}

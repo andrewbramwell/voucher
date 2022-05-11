@@ -1,0 +1,85 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="section pt-5">
+  <div class="container container-delta">
+    {{with .Params.contact}}
+    <div class="row mb-5">
+      <div class="section-title text-center mb-2">
+        <div class="section-title mb-0">
+          {{with .subtitle}}<p class="subtitle">{{. | markdownify}}</p>{{end}}
+          <h1 class="title text-xl mb-3">{{.title | markdownify}}</h1>
+          {{with .description}}<p>{{. | markdownify}}</p>{{end}}
+        </div>
+      </div>
+    </div>
+    {{end}}
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-7 order-1 order-lg-0">
+        <form action= "https://formspree.io/f/mknykjqb"  method="POST" class="rounded-md shadow-md p-4 p-md-5" action="{{site.Params.contact_form_action}}">
+          <div class="form-group mb-3">
+            <label class="fw-600 text-dark mb-1" for="fname">{{ i18n "full_name"}}</label>
+            <input name="full name" class="form-control text-dark shadow-none" type="text" placeholder="Jack Barker" id="fname" required>
+          </div>
+          <div class="form-group mb-3">
+            <label class="fw-600 text-dark mb-1" for="fname">{{ i18n "bizname"}}</label>
+            <input name="business name"  class="form-control text-dark shadow-none" type="text" placeholder="Tony's Smokehouse" id="fname" required>
+          </div>
+          <div class="form-group mb-3">
+            <label class="fw-600 text-dark mb-1" for="email">{{i18n "email"}}</label>
+            <input name="email" class="form-control text-dark shadow-none" type="email" placeholder="example@gmail.com" id="email" required>
+          </div>
+          <div class="form-group mb-3">
+            <label class="fw-600 text-dark mb-1" for="email">{{i18n "phone_number"}}</label>
+            <input name="phone number" class="form-control text-dark shadow-none" type="Phone" placeholder="02 111 3333" id="phone_number" required>
+          </div>
+          <div class="form-group mb-3">
+            <label class="fw-600 text-dark mb-1" for="message">{{ i18n "message"}}</label>
+            <textarea class="form-control text-dark shadow-none" name="comment" rows="5" id="message" placeholder="How can we help?"></textarea>
+          </div>
+          <button class="btn btn-primary w-100" type="submit">Submit Now</button>
+        </form>
+      </div>
+      <div class="col-xl-4 col-lg-5 mb-5 mb-lg-0 order-0 order-lg-1">
+        <div class="ps-lg-4">
+          {{ if .Params.contact_info.enable }}
+          {{ with .Params.contact_info }}
+          <div class="mb-4">
+            <h5 class="font-secondary"><i class="fas fa-info-circle text-primary"></i>&nbsp; {{ .title | markdownify }}</h5>
+
+            <ul class="list-unstyled check-list mb-0">
+              {{ range .address_list }}
+              <li class="position-relative">
+                <i class="fas fa-check"></i>{{ . | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+          {{ end }}
+
+          {{ if .Params.services.enable }}
+          {{ with .Params.services }}
+          <div>
+            <h5 class="font-secondary"><i class="fas fa-info-circle text-primary"></i>&nbsp; {{ .title | markdownify }}</h5>
+
+            <ul class="list-unstyled check-list mb-0">
+              {{ range .service_list }}
+              <li class="position-relative">
+                <i class="fas fa-check-circle"></i>{{ . | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section> <br><br><br> </section>
+
+{{ end }}

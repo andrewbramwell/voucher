@@ -1,0 +1,111 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+{{with .Params.about}}
+<section class="section">
+  <div class="container">
+    <div class="row g-6 align-items-center justify-content-between">
+      <div class="col-lg-12">
+        <div class="pe-0 pe-lg-5 text-left">
+          <h1 class="section-title h2">{{.subtitle | markdownify}}</h1>
+          <p class="mb-0">{{.content | markdownify}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{with .Params.voucher}}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row g-6 align-items-center justify-content-between">
+      <div class="col-lg-12">
+        <div class="pe-0 pe-lg-5 text-left">
+          <h2 class="section-title h3">{{.title | markdownify}}</h2>
+          <p class="mb-0">{{.content | markdownify}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{if .Params.career.enable}}
+{{with .Params.career}}
+<section class="section pt-0">
+  <div class="container container-delta">
+    <div class="row gy-4 justify-content-between">
+      <div class="col-lg-5">
+        <div class="section-title mb-0">
+          {{with .subtitle}}<p class="subtitle">{{. | markdownify}}</p>{{end}}
+          <h2 class="title mb-3">{{.title | markdownify}}</h2>
+          {{with .content}}<p class="mb-0">{{. | markdownify}}</p>{{end}}
+        </div>
+      </div>
+      <div class="col-lg-6">
+        {{ range first 3 (where site.RegularPages "Section" (string .section)) }}
+        <div class="features-box mb-4">
+          <a href="{{.RelPermalink}}" class="block rounded-md shadow-md text-reset p-3 p-md-4 d-block">
+            <h3 class="h4">{{.Title | markdownify}}</h3>
+            <ul class="list-unstyled list-inline mb-0">
+              <li class="list-inline-item me-2">
+                <i class="fas fa-paper-plane small text-tertiary"></i>
+                <span style="margin-left:2px">{{.Params.job_nature | markdownify}}</span>
+              </li>
+              <li class="list-inline-item">
+                <i class="fas fa-tags small text-tertiary"></i>
+                <span style="margin-left:2px">{{.Params.category | markdownify}}</span>
+              </li>
+            </ul>
+          </a>
+        </div>
+        {{end}}
+
+        <a href="{{.section | relLangURL}}/" class="btn btn-primary m-1">
+          {{i18n `view_all_positions`}} <i class="arrow-right fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
+
+{{with .Params.call_to_action}}
+{{if .enable}}
+<section class="section pb-0 call-to-action call-to-action-2">
+  <div class="container container-delta">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="block bg-white rounded-lg shadow">
+          <div class="row g-0 align-items-center">
+            <div class="col-lg-8">
+              <div class="content-block">
+                <h3 class="text-capitalize mb-2">{{.title | markdownify}}</h3>
+                <p class="mb-4">{{.subtitle | markdownify}}</p>
+                {{if .button_label}}
+                <a href="{{site.Params.call_to_action.button_link | relLangURL}}" class="btn btn-primary">{{.button_label}} <i class="arrow-right fas fa-arrow-right"></i></a>
+                {{end}}
+              </div>
+            </div>
+            {{with .image}}
+            <div class="col-lg-4">
+              {{$img:= resources.Get . }}
+              {{$img:= $img.Resize "425x"}}
+              {{$imgWebp:= $img.Resize "425x webp"}}
+              <img loading="lazy" decoding="async" class="rounded-lg img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="cta Image" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+            </div>
+            {{end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+{{end}}
