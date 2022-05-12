@@ -3,7 +3,7 @@ title: features-steps
 description: ''
 layout: ''
 features:
-  title: คุณสมบัติของซอฟต์แวร์บริหารบัตรกำนัล
+  title: คุณสมบัติของซอฟต์แวร์บัตรกำนัล
   button:
     enable: true
     label: รับชมคุณสมบัติทั้งหมด
