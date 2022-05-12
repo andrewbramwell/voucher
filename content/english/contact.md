@@ -15,7 +15,7 @@ contact_info:
   enable : true
   title : "Our Contact Info"
   address_list:
-  - "063-635-2661"
+  - "02-002-0641"
   - "12 Soi Thungsetti, Yaak 23, Prawet, Bangkok, 10250"
 
 # Services
