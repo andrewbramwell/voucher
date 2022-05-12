@@ -1,274 +1,236 @@
 ---
-title: "ซอฟต์แวร์บัตรกำนัลสำหรับธุรกิจโรงแรม ธุรกิจร้านอาหาร ธุรกิจสปา"
-description: "พลิกโฉมวิธีการขายบัตรกำนัลของขวัญ eVoucher ด้วยแพลตฟอร์มอีคอมเมิร์ซ Voucherstore เหมาะสำหรับธุรกิจการบริการ ธุรกิจการดูแลสุขภาพ และธุรกิจเวลเนสในประเทศไทย"
-draft: false
-layout: "_index"
-
-
-# banner
+title: ซอฟต์แวร์บัตรกำนัลสำหรับธุรกิจโรงแรม ธุรกิจร้านอาหาร ธุรกิจสปา
+description: พลิกโฉมวิธีการขายบัตรกำนัลของขวัญ eVoucher ด้วยแพลตฟอร์มอีคอมเมิร์ซ Voucherstore
+  เหมาะสำหรับธุรกิจการบริการ ธุรกิจการดูแลสุขภาพ และธุรกิจเวลเนสในประเทศไทย
+layout: _index
 banner:
-  subtitle: ""
-  title: "วางระบบบริหารบัตรกำนัลของท่าน"
-  description: "พลิกโฉมการขายบัตรกำนัลและบัตรของขวัญอิเล็กทรอนิกส์ (eVouchers) กับ Voucherstore ระบบขายบัตรกำนัลมาตรฐานสากลและมีความปลอดภัยสูง"
+  subtitle: ''
+  title: วางระบบบริหารบัตรกำนัลของท่าน
+  description: พลิกโฉมการขายบัตรกำนัลและบัตรของขวัญอิเล็กทรอนิกส์ (eVouchers) กับ
+    Voucherstore ระบบขายบัตรกำนัลมาตรฐานสากลและมีความปลอดภัยสูง
   button:
     enable: true
-    label: "ร้านค้าตัวอย่าง"
-    icon: "fas fa-arrow-right"
+    label: ร้านค้าตัวอย่าง
+    icon: fas fa-arrow-right
     link: "/"
   video_button:
     enable: true
-    label: "รับชมวิดีโอ"
-    video_url: "https://www.youtube.com/embed/RYSRdcTv5Q8"
-
-  image: "images/banner.png"
-
-
-# image_and_content_block_0
+    label: รับชมวิดีโอ
+    video_url: https://www.youtube.com/embed/RYSRdcTv5Q8
+  image: images/banner.png
 image_and_content_block_0:
-          enable: true
-          subtitle: ""
-          title: "ซอฟต์แวร์บริหารบัตรกำนัลของขวัญ"
-          image: "images/gift-voucher-management.png"
-          content_position: "right" # Value will be - "left/right"
-          content: "
-ไม่ว่าท่านจะเป็นผู้เริ่มต้นใหม่กับการขายบัตรกำนัล หรือ เป็นผู้ที่มียอดขายด้วยบัตรกำนัลอยู่แล้ว
-Voucherstore ออกแบบมาเพื่อส่งเสริมการขายบัตรกำนัลของท่านให้มีประสิทธิภาพยิ่งขึ้น
-ด้วยคุณสมบัติที่ตอบโจทย์ต่อผู้ใช้งาน จึงช่วยลดความยุ่งยากในการขาย การจัดการ และการรับแลกบัตรกำนัล ได้อย่างรวดเร็ว เพื่อให้ท่านใช้เวลาที่จำกัดในการดำเนินธุรกิจ ไปมุ่งเน้นต่อการวางแผนการตลาดและบริการลูกค้าอย่างเต็มที่"
-
-
-# merchant_types_2
+  enable: true
+  subtitle: ''
+  title: ซอฟต์แวร์บริหารบัตรกำนัลของขวัญ
+  image: images/gift-voucher-management.png
+  content_position: right
+  content: ไม่ว่าท่านจะเป็นผู้เริ่มต้นใหม่กับการขายบัตรกำนัล หรือ เป็นผู้ที่มียอดขายด้วยบัตรกำนัลอยู่แล้ว
+    Voucherstore ออกแบบมาเพื่อส่งเสริมการขายบัตรกำนัลของท่านให้มีประสิทธิภาพยิ่งขึ้น
+    ด้วยคุณสมบัติที่ตอบโจทย์ต่อผู้ใช้งาน จึงช่วยลดความยุ่งยากในการขาย การจัดการ และการรับแลกบัตรกำนัล
+    ได้อย่างรวดเร็ว เพื่อให้ท่านใช้เวลาที่จำกัดในการดำเนินธุรกิจ ไปมุ่งเน้นต่อการวางแผนการตลาดและบริการลูกค้าอย่างเต็มที่
 merchant_types_2:
-              enable: true
-              title: "ยกระดับธุรกิจของท่าน"
-              content: "วางตำแหน่งแบรนด์ธุรกิจด้านการโรงแรม คลินิกเสริมความงาม สปา ร้านอาหาร กอล์ฟและกิจกรรมนันทนาการทางออนไลน์ เพื่อลูกค้าของคุณพร้อมเลือกใช้บริการเหนือคู่แข่งคุณ"
-              images:
-              - image: "images/golf-course.jpeg"
-                column: "3" # column will be [ 6 or 3 ]
-              - image: "images/spa-treatment.jpeg"
-                column: "6" # column will be [ 6 or 3 ]
-              - image: "images/fitness-class.jpeg"
-                column: "3" # column will be [ 6 or 3 ]
-              - image: "images/hotel-resort.jpeg"
-                column: "6" # column will be [ 6 or 3 ]
-              - image: "images/skin-clinic.jpeg"
-                column: "3" # column will be [ 6 or 3 ]
-              - image: "images/japanese-restaurant.jpeg"
-                column: "6" # column will be [ 6 or 3 ]
-
-              content_button:
-                      title : ""
-                      content : "ลูกค้าของท่านจะสามารถเข้าถึงประสบการณ์สุดพิเศษ งานอีเวนท์ และตัวเลือกบัตรของขวัญที่จะช่วยให้แบรนด์ของท่านก้าวสู่แถวหน้าในอุตสาหกรรม ท่านจะขายบัตรของขวัญอิเล็กทรอนิกส์ทางออนไลน์ได้มากขึ้น พร้อมเข้าถึงข้อมูลการวิเคราะห์เชิงลึก"
-                      button:
-                          enable : false
-                          label : "View industries"
-                          link : "career/"
-
-
-# brands
+  enable: true
+  title: ยกระดับธุรกิจของท่าน
+  content: วางตำแหน่งแบรนด์ธุรกิจด้านการโรงแรม คลินิกเสริมความงาม สปา ร้านอาหาร กอล์ฟและกิจกรรมนันทนาการทางออนไลน์
+    เพื่อลูกค้าของคุณพร้อมเลือกใช้บริการเหนือคู่แข่งคุณ
+  images:
+  - image: images/golf-course.jpeg
+    column: "3"
+  - image: images/spa-treatment.jpeg
+    column: "6"
+  - image: images/fitness-class.jpeg
+    column: "3"
+  - image: images/hotel-resort.jpeg
+    column: "6"
+  - image: images/skin-clinic.jpeg
+    column: "3"
+  - image: images/japanese-restaurant.jpeg
+    column: "6"
+  content_button:
+    title: ''
+    content: ลูกค้าของท่านจะสามารถเข้าถึงประสบการณ์สุดพิเศษ งานอีเวนท์ และตัวเลือกบัตรของขวัญที่จะช่วยให้แบรนด์ของท่านก้าวสู่แถวหน้าในอุตสาหกรรม
+      ท่านจะขายบัตรของขวัญอิเล็กทรอนิกส์ทางออนไลน์ได้มากขึ้น พร้อมเข้าถึงข้อมูลการวิเคราะห์เชิงลึก
+    button:
+      enable: false
+      label: View industries
+      link: career/
 brands:
   enable: false
-  title: "เพิ่มยอดขายให้กับธุรกิจด้วย Voucherstore"
-  content: "ซอฟต์แวร์บริหารบัตรกำนัล eVoucher ของเราจะช่วยเพิ่มโอกาสในการขายต่อธุรกิจโรงแรม ธุรกิจร้านอาหาร ธุรกิจสปา หรือ ธุรกิจสนามกอล์ฟ ท่านสามารถเข้าร่วมกับธุรกิจชั้นนำอื่น ๆ บนแพลตฟอร์ม Voucherstore เพื่อเข้าถึงโอกาสในการขายทุกวัน ตลอด 24 ชั่วโมง ในประเทศไทยและขยายไปทั่วโลก"
+  title: เพิ่มยอดขายให้กับธุรกิจด้วย Voucherstore
+  content: ซอฟต์แวร์บริหารบัตรกำนัล eVoucher ของเราจะช่วยเพิ่มโอกาสในการขายต่อธุรกิจโรงแรม
+    ธุรกิจร้านอาหาร ธุรกิจสปา หรือ ธุรกิจสนามกอล์ฟ ท่านสามารถเข้าร่วมกับธุรกิจชั้นนำอื่น
+    ๆ บนแพลตฟอร์ม Voucherstore เพื่อเข้าถึงโอกาสในการขายทุกวัน ตลอด 24 ชั่วโมง ในประเทศไทยและขยายไปทั่วโลก
   images:
-  - "images/clients/cocotte-logo.png"
-  - "images/clients/cocotte-logo.png"
-  - "images/clients/cocotte-logo.png"
-  - "images/clients/cocotte-logo.png"
-  - "images/clients/cocotte-logo.png"
-
-
-#section_here
+  - images/clients/cocotte-logo.png
+  - images/clients/cocotte-logo.png
+  - images/clients/cocotte-logo.png
+  - images/clients/cocotte-logo.png
+  - images/clients/cocotte-logo.png
 section_here:
-        enable: true
-        subtitle: ""
-        title: "Voucherstore ทำงานอย่างไร?"
-        description: ""
-
-#cta
+  enable: true
+  subtitle: ''
+  title: Voucherstore ทำงานอย่างไร?
+  description: ''
 cta:
-        enable: true
-        subtitle: ""
-        title: "สมัครใช้งาน!"
-        description: "กรอกแบบฟอร์มใช้งานด้านล่าง ซึ่งทำได้ง่ายและไม่มีค่าสมาชิก Voucherstore ช่วยเรื่องการขายบัตรกำนัลให้ธุรกิจการโรงแรม ธุรกิจคลินิก ธุรกิจร้านอาหาร และกิจกรรมนันทนาการทั่วประเทศไทย เพราะเราต้องการให้คุณได้รับผลประโยชน์สูงสุดจากการนำเสนอนี้"
-
-        button:
-            enable: true
-            link: "contact/"
-            label: "สมัครตอนนี้"
-            icon: "fas fa-arrow-right"
-
-
-# block_with_button
-block_with_button_1:
-            enable: true
-            subtitle: ""
-            title: "สร้างร้านค้าออนไลน์ของท่าน"
-            description: "เราเริ่มต้นโดยการช่วยสร้างร้านค้าออนไลน์ ซึ่งร้านค้าออนไลน์ของท่านจะต่อยอดแบรนด์ของท่านที่มาพร้อมโลโก้ สี และคอนเทนท์ของท่าน <br><br>
-        เมื่อท่านพอใจกับรูปแบบร้านแล้วจึงสามารถเพิ่มผลิตภัณฑ์ซึ่งก็ คือ “บัตรกำนัลของท่าน” บัตรกำนัลแต่ละใบควรมีข้อกำหนดและเงื่อนไขเฉพาะ Voucherstore มีทั้งบัตรของขวัญที่เป็นมูลค่าเงิน และบัตรกำนัลประสบการณ์สำหรับเข้ารับบริการ<br><br>"
-
-            button_link: "/"
-            button_label: "รับชมร้านค้าตัวอย่าง"
-            icon: "fas fa-arrow-right"
-
-            image: "images/create-online-store.png"
-
-
-#section_here_2
-section_here_2:
-          enable: true
-          subtitle: ""
-          title: "Voucherstore เป็นผู้จัดส่งผลิตภัณฑ์"
-          description: "ลูกค้าของท่านสามารถเลือกได้ว่าจะรับบัตรกำนัลอย่างไร มีทั้งวิธีที่มีค่าใช้จ่ายและไม่มีค่าใช้จ่ายของการจัดส่ง"
-
-
-# image_and_content_block_1
-image_and_content_block_1:
-                enable: true
-                subtitle: ""
-                title: "ทางอีเมล"
-                image: "images/via-email.png"
-                content_position: "left" # Value will be - "left/right"
-                content: "บัตรกำนัลที่จัดส่งทางอีเมลทุกฉบับจะเหมือนบัตรกำนัลที่จัดส่งจากท่านโดยตรง ลูกค้าของท่านสามารถดาวน์โหลด PDF ใช้บัตรทางโทรศัพท์ด้วยคิวอาร์โค้ดแบบเฉพาะ หรือพรินท์บัตรเพื่อนำมาแสดงในจุดที่รับบริการของท่าน <br><br>Email บัตรกำนัลทางอีเมลสามารถจัดส่งได้ทันทีและไม่มีค่าใช้จ่ายสำหรับทั้งสองฝ่าย"
-
-
-# image_and_content_block_2
-image_and_content_block_2:
-                enable: true
-                subtitle: ""
-                title: "ทางไปรษณีย์"
-                image: "images/traditional-post.png"
-                content_position: "right" # Value will be - "left/right"
-                content: "บัตรกำนัลของ Voucherstore ที่เป็นกระดาษจะมีค่าใช้จ่ายเพิ่มเล็กน้อยเพียง 150 บาท และลูกค้าของท่านจะเป็นผู้ชำระค่าใช้จ่ายนี้ บัตรกำนัลนี้จะจัดส่งในซองของขวัญที่หรูหรา และเราจะเพิ่มการปกป้องเป็นพิเศษโดยการใช้ซองแบบแข็งเพื่อไม่ให้มีความเสียหายระหว่างจัดส่ง <br><br>บัตรกำนัลที่จัดส่งทางไปรษณีย์สามารถออกแบบให้ใช้แบรนด์ สี และโลโก้ของท่านซึ่งจะเป็นไอเดียการออกแบบของกำนัลที่ดีเยี่ยม"
-
-
-# customer_info
-customer_info:
-          enable: true
-          subtitle: ""
-          title: "การชำระเงินภายใต้เงื่อนไขของท่าน"
-          block:
-          - icon: ""
-            title: "รับเงินทันที"
-            content: "ผู้ให้บริการรายอื่น ๆ ทั่วไปจะเก็บเงินของท่านไว้เป็นเวลานาน ซึ่งต่างกับ Voucherstore เมื่อลูกค้าของท่านเลือกซื้อบัตรกำนัลจากร้านค้าออนไลน์ของท่าน ท่านจะได้รับเงินในทันทีเมื่อการสั่งซื้อเสร็จสิ้น"
-
-          - icon: ""
-            title: "ชำระเงินเมื่อท่านมีรายได้"
-            content: "Voucherstore ปฏิบัติงานด้วยระบบที่อิงตามผลงาน ซึ่งเป็นประโยชน์กับท่าน เนื่องจากไม่มีค่าใช้จ่ายรายเดือน แต่เมื่อท่านขายได้เราจะทำการหักค่าคอมมิชชั่นส่วนหนึ่งเท่านั้น"
-
-
-# image_and_content_block_3
-image_and_content_block_3:
-        enable: true
-        subtitle: ""
-        title: "ปลอดภัยด้วย Stripe"
-        image: "images/stripe.png"
-        content_position: "left" # Value will be - "left/right"
-        content: "Voucherstore รับชำระเงินผ่าน Stripe ซึ่งเป็นแพล็ตฟอร์มอีคอมเมิร์ซที่ได้รับความนิยมทั่วโลก ลูกค้าของท่านจะมั่นใจได้ว่าการซื้อบัตรกำนัลจะมีความปลอดภัยสูง และท่านจะได้รับการชำระเงินด้วยความราบรื่น <br><br>
-บัญชี Stripe บริษัทของท่านจะเชื่อมโยงกับบัญชีธนาคารที่ท่านเลือกโดยตรง ซึ่งท่านจะสามารถรับชำระเงินทางคิวอาร์ และบัตรเครดิตโดยอัตโนมัติ ท่านมีทางเลือกในการรับเงินได้ 3 รูปแบบ คือ รายเดือน รายสัปดาห์ หรือ รายวัน<br><br>
-ทุกบัญชีของผู้ใช้งานใน Stripe มีแดชบอร์ดที่เรียบง่าย ท่านสามารถล็อคอินและบริหารเงินที่เข้าบัญชีโดยตรงได้อย่างง่ายดาย"
-
-
-# image_and_content_block_4
-image_and_content_block_4:
-        enable: true
-        subtitle: ""
-        title: "คุณสมบัติแลกรับบัตรกำนัลที่หลากหลาย"
-        image: "images/redeem-voucher.png"
-        content_position: "right" # Value will be - "left/right"
-        content: "Voucherstore มีวิธีการรับแลกรับบัตรกำนัลที่ชาญฉลาด ท่านสามารถค้นหาและแลกรับบัตรกำนัลได้ทันทีทางแดชบอร์ด หรือใช้อุปกรณ์สแกนคิวอาร์โค้ด ท่านมีทางเลือกให้ลูกค้าใช้บัตรกำนัลเพียงบางส่วนและยกยอดที่เหลือไปใช้ภายหลังได้"
-
-
-# image_and_content_block_5
-image_and_content_block_5:
-                enable: true
-                subtitle: ""
-                title: "เครื่องมือบริหารอันทรงพลัง"
-                image: "images/dashboard.png"
-                content_position: "left" # Value will be - "left/right"
-                content: "แดชบอร์ดของ Voucherstore เป็นเครื่องมือบริหารจัดการที่ใช้งานง่าย ให้คุณควบคุมระบบได้อย่างสมบูรณ์ เช่น การบริหารผลิตภัณฑ์ อนุมัติตำแหน่งของผู้ใช้ระบบ ตอบคำถามและวิเคราะห์รายงาน แดชบอร์ดจัดเก็บข้อมูลเชิงลึกและการควบคุมระบบที่จำเป็นต่อการสร้างรายได้จากบัตรกำนัลของท่าน"
-
-
-# testimonials_1
-testimonials_1:
-            enable: false
-            subtitle: ""
-            title: "ความคิดเห็นจากลูกค้าของเรา"
-            image: "images/testimonial.png"
-            reviews:
-            - name: "Sukishi"
-              designation: "Multi-Brand, Multi-Store Setup"
-              rating: "5.0" # ex: "3", "3.8"
-              content: "We have been using Foodie since 2020 and have grown our direct delivery channels immensely. Foodie really allows direct customer engagement across LINE, Facebook and Web allowing us to see where are customers really are."
-
-            - name: "Salad Factory"
-              designation: "Multi-Brand, Multi-Store Setup"
-              rating: "4.5" # ex: "3", "3.8"
-              content: "Foodie allowed Salad Factory to reach out to our clients in LINE and Facebook and helped create a central customer database. Using this advantage, we recently started another brand on Foodie to cross sell into our existing customers"
-
-            - name: "Sushi Hiro"
-              designation: "Multi-Brand, Multi-Store Setup"
-              rating: "5" # ex: "3", "3.8"
-              content: "More Orders and Growing Sales is what we achieved out of using Foodie in the last year. They have bee super helpful with pointing out bottlenecks in our operations which allows us to scale better across many stores."                
-
-
-# features
-features:
   enable: true
-  section: "features"
-
-
-#section_here_3
-section_here_3:
-        enable: true
-        subtitle: ""
-        title: "เพิ่มยอดขายให้มากขึ้นด้วย Voucherstore"
-        description: ""
-
-
-# image_and_content_block_6
-image_and_content_block_6:
-                enable: true
-                subtitle: ""
-                title: "การขายออฟไลน์"
-                image: "images/offline-sales-1.png"
-                content_position: "right" # Value will be - "left/right"
-                content: "โหมดการทำงานระบบ POS ใน Voucherstore ช่วยให้ท่านประมวลผลคำสั่งซื้อผ่านแดชบอร์ดได้อย่างรวดเร็ว ซึ่งเหมาะอย่างยิ่งสำหรับการเสนอขายแบบพบหน้ากับลูกค้าจากสถานที่ของท่าน ให้ท่านสามารถรับชำระด้วยบัตรเครดิต หรือ รับชำระเงินนอกระบบ Voucherstore เช่น เงินสด หรือ การโอนเงินผ่านธนาคาร"
-
-
-# image_and_content_block_7
-image_and_content_block_7:
-                enable: true
-                subtitle: ""
-                title: "คุณสมบัติเพิ่มยอดขายอันชาญฉลาด"
-                image: "images/cross-sell.png"
-                content_position: "left" # Value will be - "left/right"
-                content: "ใช้คุณสมบัติกำหนดข้อมูลเพิ่มเติม (add-ons) เพื่อเพิ่มรายได้อย่างง่ายดาย ซึ่งจะช่วยยกระดับประสบการณ์ของลูกค้า ให้คุณเสนอขายบัตรกำนัลทางออนไลน์ ซึ่งจะช่วยสื่อสารแบรนด์ของคุณไปทั่วประเทศ ทีมงานการตลาดของคุณสามารถทำโปรโมชั่นกับ Voucherstore โดยใช้ข้อมูลการขายที่แม่นยำยิ่งขึ้น ซึ่งจะช่วยให้คุณนำเสนอได้มากกว่าสิ่งที่ลูกค้าต้องการ "
-
-
-# blog
-blog:
-  enable: true
-  subtitle: ""
-  title: "บทความ"
-  description: "บทความและเรื่องราวจำนวนมากที่เรากล่าวถึงอุดมการณ์ และการเพิ่มยอดขายด้วยบัตรกำนัลทางออนไลน์ เพื่อส่งเสริมต่อแบรนด์ธุรกิจการโรงแรม ธุรกิจการดูแลสุขภาพและเวลเนสทุกหนทุกแห่ง"
-
-
+  subtitle: ''
+  title: สมัครใช้งาน!
+  description: กรอกแบบฟอร์มใช้งานด้านล่าง ซึ่งทำได้ง่ายและไม่มีค่าสมาชิก Voucherstore
+    ช่วยเรื่องการขายบัตรกำนัลให้ธุรกิจการโรงแรม ธุรกิจคลินิก ธุรกิจร้านอาหาร และกิจกรรมนันทนาการทั่วประเทศไทย
+    เพราะเราต้องการให้คุณได้รับผลประโยชน์สูงสุดจากการนำเสนอนี้
   button:
     enable: true
-    link: "blog/"
-    label: "อ่านบทความทั้งหมด"
-    icon: "fas fa-arrow-right"
-
-
-# call_to_action
+    link: contact/
+    label: สมัครตอนนี้
+    icon: fas fa-arrow-right
+block_with_button_1:
+  enable: true
+  subtitle: ''
+  title: สร้างร้านค้าออนไลน์ของท่าน
+  description: 'เราเริ่มต้นโดยการช่วยสร้างร้านค้าออนไลน์ ซึ่งร้านค้าออนไลน์ของท่านจะต่อยอดแบรนด์ของท่านที่มาพร้อมโลโก้
+    สี และคอนเทนท์ของท่าน     <br><br> เมื่อท่านพอใจกับรูปแบบร้านแล้วจึงสามารถเพิ่มผลิตภัณฑ์ซึ่งก็ คือ “บัตรกำนัลของท่าน”
+    บัตรกำนัลแต่ละใบควรมีข้อกำหนดและเงื่อนไขเฉพาะ Voucherstore มีทั้งบัตรของขวัญที่เป็นมูลค่าเงิน
+    และบัตรกำนัลประสบการณ์สำหรับเข้ารับบริการ<br><br>'
+  button_link: "/"
+  button_label: รับชมร้านค้าตัวอย่าง
+  icon: fas fa-arrow-right
+  image: images/create-online-store.png
+section_here_2:
+  enable: true
+  subtitle: ''
+  title: Voucherstore เป็นผู้จัดส่งผลิตภัณฑ์
+  description: ลูกค้าของท่านสามารถเลือกได้ว่าจะรับบัตรกำนัลอย่างไร มีทั้งวิธีที่มีค่าใช้จ่ายและไม่มีค่าใช้จ่ายของการจัดส่ง
+image_and_content_block_1:
+  enable: true
+  subtitle: ''
+  title: ทางอีเมล
+  image: images/via-email.png
+  content_position: left
+  content: บัตรกำนัลที่จัดส่งทางอีเมลทุกฉบับจะเหมือนบัตรกำนัลที่จัดส่งจากท่านโดยตรง
+    ลูกค้าของท่านสามารถดาวน์โหลด PDF ใช้บัตรทางโทรศัพท์ด้วยคิวอาร์โค้ดแบบเฉพาะ หรือพรินท์บัตรเพื่อนำมาแสดงในจุดที่รับบริการของท่าน
+    <br><br>Email บัตรกำนัลทางอีเมลสามารถจัดส่งได้ทันทีและไม่มีค่าใช้จ่ายสำหรับทั้งสองฝ่าย
+image_and_content_block_2:
+  enable: true
+  subtitle: ''
+  title: ทางไปรษณีย์
+  image: images/traditional-post.png
+  content_position: right
+  content: บัตรกำนัลของ Voucherstore ที่เป็นกระดาษจะมีค่าใช้จ่ายเพิ่มเล็กน้อยเพียง
+    150 บาท และลูกค้าของท่านจะเป็นผู้ชำระค่าใช้จ่ายนี้ บัตรกำนัลนี้จะจัดส่งในซองของขวัญที่หรูหรา
+    และเราจะเพิ่มการปกป้องเป็นพิเศษโดยการใช้ซองแบบแข็งเพื่อไม่ให้มีความเสียหายระหว่างจัดส่ง
+    <br><br>บัตรกำนัลที่จัดส่งทางไปรษณีย์สามารถออกแบบให้ใช้แบรนด์ สี และโลโก้ของท่านซึ่งจะเป็นไอเดียการออกแบบของกำนัลที่ดีเยี่ยม
+customer_info:
+  enable: true
+  subtitle: ''
+  title: การชำระเงินภายใต้เงื่อนไขของท่าน
+  block:
+  - icon: ''
+    title: รับเงินทันที
+    content: ผู้ให้บริการรายอื่น ๆ ทั่วไปจะเก็บเงินของท่านไว้เป็นเวลานาน ซึ่งต่างกับ
+      Voucherstore เมื่อลูกค้าของท่านเลือกซื้อบัตรกำนัลจากร้านค้าออนไลน์ของท่าน ท่านจะได้รับเงินในทันทีเมื่อการสั่งซื้อเสร็จสิ้น
+  - icon: ''
+    title: ชำระเงินเมื่อท่านมีรายได้
+    content: Voucherstore ปฏิบัติงานด้วยระบบที่อิงตามผลงาน ซึ่งเป็นประโยชน์กับท่าน
+      เนื่องจากไม่มีค่าใช้จ่ายรายเดือน แต่เมื่อท่านขายได้เราจะทำการหักค่าคอมมิชชั่นส่วนหนึ่งเท่านั้น
+image_and_content_block_3:
+  enable: true
+  subtitle: ''
+  title: ปลอดภัยด้วย Stripe
+  image: images/stripe.png
+  content_position: left
+  content: 'Voucherstore รับชำระเงินผ่าน Stripe ซึ่งเป็นแพล็ตฟอร์มอีคอมเมิร์ซที่ได้รับความนิยมทั่วโลก
+    ลูกค้าของท่านจะมั่นใจได้ว่าการซื้อบัตรกำนัลจะมีความปลอดภัยสูง และท่านจะได้รับการชำระเงินด้วยความราบรื่น     <br><br> บัญชี Stripe บริษัทของท่านจะเชื่อมโยงกับบัญชีธนาคารที่ท่านเลือกโดยตรง
+    ซึ่งท่านจะสามารถรับชำระเงินทางคิวอาร์ และบัตรเครดิตโดยอัตโนมัติ ท่านมีทางเลือกในการรับเงินได้
+    3 รูปแบบ คือ รายเดือน รายสัปดาห์ หรือ รายวัน<br><br> ทุกบัญชีของผู้ใช้งานใน Stripe
+    มีแดชบอร์ดที่เรียบง่าย ท่านสามารถล็อคอินและบริหารเงินที่เข้าบัญชีโดยตรงได้อย่างง่ายดาย'
+image_and_content_block_4:
+  enable: true
+  subtitle: ''
+  title: คุณสมบัติแลกรับบัตรกำนัลที่หลากหลาย
+  image: images/redeem-voucher.png
+  content_position: right
+  content: Voucherstore มีวิธีการรับแลกรับบัตรกำนัลที่ชาญฉลาด ท่านสามารถค้นหาและแลกรับบัตรกำนัลได้ทันทีทางแดชบอร์ด
+    หรือใช้อุปกรณ์สแกนคิวอาร์โค้ด ท่านมีทางเลือกให้ลูกค้าใช้บัตรกำนัลเพียงบางส่วนและยกยอดที่เหลือไปใช้ภายหลังได้
+image_and_content_block_5:
+  enable: true
+  subtitle: ''
+  title: เครื่องมือบริหารอันทรงพลัง
+  image: images/dashboard.png
+  content_position: left
+  content: แดชบอร์ดของ Voucherstore เป็นเครื่องมือบริหารจัดการที่ใช้งานง่าย ให้คุณควบคุมระบบได้อย่างสมบูรณ์
+    เช่น การบริหารผลิตภัณฑ์ อนุมัติตำแหน่งของผู้ใช้ระบบ ตอบคำถามและวิเคราะห์รายงาน
+    แดชบอร์ดจัดเก็บข้อมูลเชิงลึกและการควบคุมระบบที่จำเป็นต่อการสร้างรายได้จากบัตรกำนัลของท่าน
+testimonials_1:
+  enable: false
+  subtitle: ''
+  title: ความคิดเห็นจากลูกค้าของเรา
+  image: images/testimonial.png
+  reviews:
+  - name: Sukishi
+    designation: Multi-Brand, Multi-Store Setup
+    rating: "5.0"
+    content: We have been using Foodie since 2020 and have grown our direct delivery
+      channels immensely. Foodie really allows direct customer engagement across LINE,
+      Facebook and Web allowing us to see where are customers really are.
+  - name: Salad Factory
+    designation: Multi-Brand, Multi-Store Setup
+    rating: "4.5"
+    content: Foodie allowed Salad Factory to reach out to our clients in LINE and
+      Facebook and helped create a central customer database. Using this advantage,
+      we recently started another brand on Foodie to cross sell into our existing
+      customers
+  - name: Sushi Hiro
+    designation: Multi-Brand, Multi-Store Setup
+    rating: "5"
+    content: More Orders and Growing Sales is what we achieved out of using Foodie
+      in the last year. They have bee super helpful with pointing out bottlenecks
+      in our operations which allows us to scale better across many stores.
+features:
+  enable: true
+  section: features
+section_here_3:
+  enable: true
+  subtitle: ''
+  title: เพิ่มยอดขายให้มากขึ้นด้วย Voucherstore
+  description: ''
+image_and_content_block_6:
+  enable: true
+  subtitle: ''
+  title: การขายออฟไลน์
+  image: images/offline-sales-1.png
+  content_position: right
+  content: โหมดการทำงานระบบ POS ใน Voucherstore ช่วยให้ท่านประมวลผลคำสั่งซื้อผ่านแดชบอร์ดได้อย่างรวดเร็ว
+    ซึ่งเหมาะอย่างยิ่งสำหรับการเสนอขายแบบพบหน้ากับลูกค้าจากสถานที่ของท่าน ให้ท่านสามารถรับชำระด้วยบัตรเครดิต
+    หรือ รับชำระเงินนอกระบบ Voucherstore เช่น เงินสด หรือ การโอนเงินผ่านธนาคาร
+image_and_content_block_7:
+  enable: true
+  subtitle: ''
+  title: คุณสมบัติเพิ่มยอดขายอันชาญฉลาด
+  image: images/cross-sell.png
+  content_position: left
+  content: 'ใช้คุณสมบัติกำหนดข้อมูลเพิ่มเติม (add-ons) เพื่อเพิ่มรายได้อย่างง่ายดาย
+    ซึ่งจะช่วยยกระดับประสบการณ์ของลูกค้า ให้คุณเสนอขายบัตรกำนัลทางออนไลน์ ซึ่งจะช่วยสื่อสารแบรนด์ของคุณไปทั่วประเทศ
+    ทีมงานการตลาดของคุณสามารถทำโปรโมชั่นกับ Voucherstore โดยใช้ข้อมูลการขายที่แม่นยำยิ่งขึ้น
+    ซึ่งจะช่วยให้คุณนำเสนอได้มากกว่าสิ่งที่ลูกค้าต้องการ '
+blog:
+  enable: true
+  subtitle: ''
+  title: บทความ
+  description: บทความและเรื่องราวจำนวนมากที่เรากล่าวถึงอุดมการณ์ และการเพิ่มยอดขายด้วยบัตรกำนัลทางออนไลน์
+    เพื่อส่งเสริมต่อแบรนด์ธุรกิจการโรงแรม ธุรกิจการดูแลสุขภาพและเวลเนสทุกหนทุกแห่ง
+  button:
+    enable: true
+    link: blog/
+    label: อ่านบทความทั้งหมด
+    icon: fas fa-arrow-right
 call_to_action:
   enable: true
-  title: "คุณต้องการเพิ่มรายได้หรือไม่?"
-  subtitle: "ด้วยคุณสมบัติที่ครบถ้วนของ Voucherstore ช่วยให้ธุรกิจการโรงแรม คลินิกเสริมความงาม สปา ร้านอาหาร กอล์ฟและกิจกรรมนันทนาการในประเทศไทย ให้มีระบบบริหารบัตรกำนัลและบัตรกำนัลของขวัญอิเล็กทรอนิกส์ (eVouchers) ที่เป็นมาตรฐานสากลและมีความปลอดภัยสูงเป็นตัวปรับกลยุทธ์การขายอย่างถาว"
-  button_label: "ติดต่อเรา"
-  button_link: "contact/"
-  image: "images/cta.png"
-
-
+  title: คุณต้องการเพิ่มรายได้หรือไม่?
+  subtitle: ด้วยคุณสมบัติที่ครบถ้วนของ Voucherstore ช่วยให้ธุรกิจการโรงแรม คลินิกเสริมความงาม
+    สปา ร้านอาหาร กอล์ฟและกิจกรรมนันทนาการในประเทศไทย ให้มีระบบบริหารบัตรกำนัลและบัตรกำนัลของขวัญอิเล็กทรอนิกส์
+    (eVouchers) ที่เป็นมาตรฐานสากลและมีความปลอดภัยสูงเป็นตัวปรับกลยุทธ์การขายอย่างถาว
+  button_label: ติดต่อเรา
+  button_link: contact/
+  image: images/cta.png
 
 ---
