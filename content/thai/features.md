@@ -24,7 +24,7 @@ image_and_content_block:
     you get the most out of our service. No matter how large your business is, our
     dedicated support scales with you.
 features_1:
-  title: คุณสมบัติที่สนับสนุนการทำงาน
+  title: คุณสมบัติช่วยสนับสนุนการทำงาน
   button: 
   enable: true
   label: View All Features
@@ -47,8 +47,8 @@ features_1:
     content: มีระบบป้องกันการทุจริต และภัยจากการถูกคุกคาม ซึ่งเราจะให้ความคุ้มครองต่อบริษัทของท่าน
       ข้อมูลส่วนบุคคลและข้อมูลที่ท่านจัดเก็บไว้จะอยู่ภายใต้การดูแลรักษาความปลอดภัยอย่างดีที่สุด
 features_2:
-  title: คุณสมบัติที่ช่วยเพิ่มยอดขาย
-  button: 
+  title: คุณสมบัติช่วยเพิ่มยอดขาย
+  button: ''
   enable: true
   label: View All Features
   icon: fas fa-arrow-right
