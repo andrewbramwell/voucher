@@ -32,7 +32,7 @@ features_1:
   icon: fas fa-arrow-right
   link: "#!"
   features_blocks:
-  - title: ทำงานอย่างชาญฉลาด
+  - title: บริหารอย่างชาญฉลาด
     icon: fas fa-bullseye
     content: |-
       เครื่องมือทางการตลาดนี้จะช่วยเพิ่มยอดขายให้ธุรกิจของท่านมากยิ่งขึ้น
