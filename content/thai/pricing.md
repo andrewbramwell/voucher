@@ -3,6 +3,8 @@ title: ราคา
 description: 'ไม่มีค่าใช้จ่ายการสมัคร ไม่มีเก็บค่าบริการรายเดือน! Voucherstore จะคิดค่าคอมมิชชั่นเป็นเปอร์เซ็นต์จากยอดขาย
   เมื่อท่านขายได้ '
 layout: pricing
+draft: true
+
 pricing:
   subtitle: ''
   title: ''
