@@ -1,7 +1,7 @@
 ---
 title: "Pricing"
 description: "No signup fee and no subscription! Pay only when you make a sale."
-draft: false
+draft: true
 layout: "pricing"
 
 # pricing
