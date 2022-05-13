@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://storied-florentine-3d8197.netlify.app/"
+baseURL = "https://www.voucherstore.io/"
 title = "Delta - Software and SAAS landing Hugo Theme"
 theme = "delta-hugo"
 # post pagination
@@ -12,6 +12,7 @@ googleAnalytics = "" # example: UA-123-45, for more info, read the article https
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # example: ["fr"] for disable french language
+enableRobotsTXT = true
 
 ############################# Hugo Image Processing Quility ##############################
 [imaging]
