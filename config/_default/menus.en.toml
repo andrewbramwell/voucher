@@ -7,10 +7,7 @@ name = "Features"
 url = "features/"
 weight = 1
 
-[[main]]
-name = "Pricing"
-url = "pricing/"
-weight = 1
+
 
   [[main]]
   weight = 2
