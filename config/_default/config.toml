@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://storied-florentine-3d8197.netlify.app/"
+baseURL = "https://www.voucherstore.io/"
 title = "Delta - Software and SAAS landing Hugo Theme"
 theme = "delta-hugo"
 # post pagination
