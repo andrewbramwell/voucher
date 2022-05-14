@@ -204,7 +204,7 @@
           {{ if fileExists (add `assets/` .image) }}
           {{$img:= resources.Get .image }}
           {{$img:= $img.Resize "1000x"}}
-          
+          {{$imgWebp:= $img.Resize "1000x webp"}}
           <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="Creating an online voucher store" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
           {{end}}
         </div>
@@ -248,7 +248,7 @@
           {{with .image}}
           {{$img:= resources.Get . }}
           {{$img:= $img.Resize "1000x"}}
-         
+          {{$imgWebp:= $img.Resize "1000x webp"}}
           <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="eVouchers sent by email phone and laptop" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
           {{end}}
         </div>
