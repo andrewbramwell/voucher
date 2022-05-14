@@ -1,7 +1,7 @@
 ---
 title: การใช้คำในเทมเพลตบัตรกำนัลของขวัญ
 date: 2022-04-28T09:30:21.000+00:00
-image: gift-voucher-wording-template.png
+image: images/blog/gift-voucher-wording-template.png
 author: Kristira-R
 type: regular
 description: Voucherstore เราแนะนำว่าคุณควรมีข้อกำหนดและเงื่อนไขของบัตรกำนัล eVouchers
