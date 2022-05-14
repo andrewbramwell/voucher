@@ -249,7 +249,7 @@
           {{$img:= resources.Get . }}
           {{$img:= $img.Resize "1000x"}}
           {{$imgWebp:= $img.Resize "1000x webp"}}
-          <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$img.RelPermalink}}" alt="Video Thumbnail" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+          <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="eVouchers sent by email phone and laptop" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
           {{end}}
         </div>
       </div>
