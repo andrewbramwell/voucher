@@ -20,7 +20,7 @@ banner:
 image_and_content_block_0:
   enable: true
   subtitle: ''
-  title: ซอฟต์แวร์บริหารบัตรกำนัลของขวัญ
+  title: ซอฟต์แวร์บริหารบัตรกำนัล
   image: images/gift-voucher-management.png
   content_position: right
   content: ไม่ว่าท่านจะเป็นผู้เริ่มต้นใหม่กับการขายบัตรกำนัล หรือ เป็นผู้ที่มียอดขายด้วยบัตรกำนัลอยู่แล้ว
