@@ -15,7 +15,7 @@ copyright = "All Rights Reserved © 2022 Voucher Store Service Co., Ltd."
 
 ################################### Thai language #####################################
 [th]
-languageName = "ไทย"
+languageName = "Th"
 languageCode = "th-th"
 contentDir = "content/thai"
 weight = 1
