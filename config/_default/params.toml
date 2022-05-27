@@ -66,17 +66,17 @@ link = "https://www.facebook.com/voucherstore.io/"
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
+link = "https://twitter.com/VoucherstoreTh"
 
 [[social]]
 title = "instagram"
 icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#!"
+link = "https://www.instagram.com/voucherstoreth/"
 
 [[social]]
 title = "line"
 icon = "fab fa-line" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "https://line.me/R/ti/p/@561spntz"
+link = "https://page.line.me/?accountId=voucherstore"
 
 [[social]]
 title = "linkedin"
