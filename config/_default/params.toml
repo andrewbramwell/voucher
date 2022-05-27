@@ -82,3 +82,8 @@ link = "https://page.line.me/?accountId=voucherstore"
 title = "linkedin"
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.linkedin.com/company/voucherstore-thai"
+
+[[social]]
+title = "youtube"
+icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.youtube.com/channel/UCsSF3TA08PzyCccTEommw_w"
