@@ -14,7 +14,7 @@ banner:
     enable: true
     label: "Demo Store"
     icon: "fas fa-arrow-right"
-    link: "en/"
+    link: "https://hotel.voucherstore.co.th/"
   video_button:
     enable: true
     label: "Watch video"
