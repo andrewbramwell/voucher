@@ -36,7 +36,7 @@
           {{$img:= resources.Get . }}
           {{$img:= $img.Resize "600x"}}
           {{$imgWebp:= $img.Resize "1000x webp"}}
-          <img loading="lazy" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="Banner Image" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
+          <img loading="" decoding="async" class="img-fluid" width="{{$img.Width}}" height="{{$img.Height}}" src="{{$imgWebp.RelPermalink}}" alt="Banner Image" onerror="this.onerror=null;this.src='{{$img.RelPermalink}}'">
         </div>
         {{end}}
       </div>
