@@ -44,7 +44,7 @@ image_and_content_block_1:
 customer_info:
   enable: true
   subtitle: ''
-  title: ออกแบบเพื่อตอบโจทย์ต่อธุรกิจนันทนาการและการท่องเที่ยว
+  title: ออกแบบเพื่อตอบโจทย์ต่อธุรกิจสนามกอล์ฟและกิจกรรม
   block:
   - icon: fas fa-qrcode
     title: การแลกรับด้วย QR Code
