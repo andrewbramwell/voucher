@@ -44,7 +44,7 @@ image_and_content_block_1:
 customer_info:
   enable: true
   subtitle: ''
-  title: ออกแบบเพื่อตอบโจทย์ต่อธุรกิจสปาและเวลเนส
+  title: ออกแบบเพื่อตอบโจทย์ต่อธุรกิจคลินิกและเวลเนส
   block:
   - icon: fas fa-store
     title: ขายบัตรกำนัลของขวัญในคลิกนิกของคุณ
