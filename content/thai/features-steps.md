@@ -12,7 +12,7 @@ features:
   features_blocks:
   - title: เพิ่มความคล่องตัว
     icon: fas fa-thumbs-up
-    content: ด้วยบริการ end-to-end ของ Voucherstore ให้ท่านวางใจได้ถึงการสร้างกลยุทธ์การขาย
+    content: ด้วยบริการ end-to-end ของ Voucherstore ให้คุณวางใจได้ถึงการสร้างกลยุทธ์การขาย
       การโปรโมท การจัดส่ง และการรับแลกบัตรกำนัล ให้มีประสิทธิภาพมากยิ่งขึ้น
   - title: เพิ่มยอดขาย
     icon: fas fa-rocket
