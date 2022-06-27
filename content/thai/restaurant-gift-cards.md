@@ -90,7 +90,7 @@ testimonials_1:
       in our operations which allows us to scale better across many stores.
 fun_facts:
   enable: true
-  title: ข้อมูลบัตรกำนัลที่น่าสนใจ
+  title: ข้อมูลด้านบัตรกำนัลที่น่าสนใจ
   fact_item:
   - icon: fas fa-fighter-jet
     counter: "73"
