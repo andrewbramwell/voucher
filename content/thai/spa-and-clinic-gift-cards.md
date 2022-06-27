@@ -31,7 +31,7 @@ brands:
 image_and_content_block_1:
   enable: true
   subtitle: ''
-  title: เพิ่มยอดขายให้ธุรกิจสปาของคุณ
+  title: เพิ่มยอดขายให้ธุรกิจคลินิกของคุณ
   image: images/gift-voucher-management.png
   content_position: right
   content: บัตรกำนัลคือสิ่งเดียวในธุรกิจสปา ธุรกิจคลินิก และธุรกิจเวลเนสของคุณ ที่สามารถสร้างกำไรได้มากที่สุดในเวลานี้
