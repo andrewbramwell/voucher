@@ -103,7 +103,7 @@ section_here_2:
 image_and_content_block_1:
   enable: true
   subtitle: ''
-  title: ทางอีเมล
+  title: ส่งทางอีเมล
   image: images/via-email.png
   content_position: left
   content: บัตรกำนัลที่จัดส่งทางอีเมลทุกฉบับเสมือนการจัดส่งจากคุณโดยตรง ลูกค้าของคุณสามารถดาวน์โหลดไฟล์
