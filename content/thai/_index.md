@@ -112,7 +112,7 @@ image_and_content_block_1:
 image_and_content_block_2:
   enable: true
   subtitle: ''
-  title: ทางไปรษณีย์
+  title: ส่งทางไปรษณีย์
   image: images/traditional-post.png
   content_position: right
   content: บัตรกำนัลที่เป็นกระดาษจะมีค่าใช้จ่ายเพิ่ม (150 บาท) โดยลูกค้าของคุณจะเป็นผู้ชำระค่าใช้จ่ายส่วนนี้
