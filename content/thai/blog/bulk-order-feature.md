@@ -2,7 +2,7 @@
 title: Voucherstore แจ้งประกาศถึงคุณสมบัติการสั่งซื้อรายครั้งจำนวนมาก
 date: 2022-07-07T09:30:21.000+00:00
 image: images/blog/new-feature.png
-author: Kristira Ratchaiboonkong
+author: Kristira-R
 type: featured
 description: รสร้างและส่งบัตรกำนัลจำนวนหนึ่งพันใบในครั้งเดียว เมื่อมีคำสั่งซื้อจำนวนมาก บัตรกำนัลจะถูกจัดส่งไปยังผู้รับของคุณทันทีผ่านทางอีเมล
 
