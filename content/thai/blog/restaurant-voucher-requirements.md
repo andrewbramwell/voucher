@@ -1,5 +1,5 @@
 ---
-title: ร้านอาหารควรใส่ข้อมูลอะไรบ้างบนบัตรกำนัล
+title: ร้านอาหารควรระบุข้อมูลเกี่ยวกับอะไรบ้างบนบัตรกำนัล
 date: 2022-01-28T09:30:21.000+00:00
 image: images/blog/restaurant-voucher-requirements.png
 author: Kristira-R
