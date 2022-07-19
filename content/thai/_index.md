@@ -101,7 +101,7 @@ block_with_button_1:
 section_here_2:
   enable: true
   subtitle: ''
-  title: Voucherstore เป็นผู้จัดส่งผลิตภัณฑ์
+  title: 'บัตรกำนัลของคุณจะถูกจัดส่งโดย Voucherstore '
   description: ลูกค้าของคุณสามารถเลือกได้ว่าจะรับบัตรกำนัลอย่างไร มีทั้งวิธีที่มีค่าใช้จ่ายและไม่มีค่าใช้จ่ายของการจัดส่ง
 image_and_content_block_1:
   enable: true
