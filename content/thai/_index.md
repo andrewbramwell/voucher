@@ -84,7 +84,7 @@ cta:
   button:
     enable: true
     link: contact/
-    label: สมัครตอนนี้
+    label: สมัครใช้ตอนนี้
     icon: fas fa-arrow-right
 block_with_button_1:
   enable: true
