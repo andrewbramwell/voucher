@@ -81,7 +81,7 @@ features_2:
     content: Voucherstore รองรับการใช้งานหน้าร้านได้หลายภาษา และมีบัตรกำนัลในรูปแบบไฟล์
       PDF คุณสามารถเข้าถึงและให้บริการด้วยภาษาที่ลูกค้าต้องการ
 features_3:
-  title: คุณสมบัติช่วยเพิ่มความปลอดภัย
+  title: คุณสมบัติเพิ่มความปลอดภัย
   button: 
   enable: true
   label: View All Features
