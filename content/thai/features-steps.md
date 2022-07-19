@@ -3,7 +3,7 @@ title: features-steps
 description: ''
 layout: ''
 features:
-  title: 'คุณสมบัติซอฟต์แวร์ E-vouchers และ E-coupon '
+  title: คุณสมบัติซอฟต์แวร์บัตรกำนัล E-vouchers
   button:
     enable: true
     label: รับชมคุณสมบัติทั้งหมด
