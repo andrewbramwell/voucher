@@ -24,8 +24,8 @@ image_and_content_block:
     you get the most out of our service. No matter how large your business is, our
     dedicated support scales with you.
 features_1:
-  title: คุณสมบัติช่วยสนับสนุนการทำงาน
-  button: 
+  title: คุณสมบัติเพิ่มประสิทธิภาพ
+  button: ''
   enable: true
   label: View All Features
   icon: fas fa-arrow-right
