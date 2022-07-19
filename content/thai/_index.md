@@ -8,7 +8,7 @@ layout: _index
 banner:
   subtitle: ''
   title: 'วางระบบขายบัตรกำนัลของคุณ '
-  description: พลิกโฉมการขายบัตรกำนัลออนไลน์ด้วย Voucherstore ซอฟต์แวร์บริหาร E-voucher,
+  description: พลิกโฉมการขายบัตรกำนัลออนไลน์ด้วย Voucherstore ซอฟต์แวร์บริหาร E-vouchers,
     E-gift card, E-coupon, บัตรกำนัลเงินสด, บัตรของขวัญ, และบัตรกำนัลประสบการณ์ ที่ได้มาตรฐานสากลและมีความปลอดภัยสูง
   button:
     enable: true
