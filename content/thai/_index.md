@@ -106,7 +106,7 @@ section_here_2:
 image_and_content_block_1:
   enable: true
   subtitle: ''
-  title: จัดส่งทางอีเมล
+  title: การจัดส่งทางอีเมล
   image: images/via-email.png
   content_position: left
   content: บัตรกำนัลที่จัดส่งทางอีเมลทุกฉบับ เสมือนการจัดส่งจากคุณโดยตรง ลูกค้าของคุณสามารถดาวน์โหลดไฟล์
@@ -115,7 +115,7 @@ image_and_content_block_1:
 image_and_content_block_2:
   enable: true
   subtitle: ''
-  title: จัดส่งทางไปรษณีย์
+  title: การจัดส่งทางไปรษณีย์
   image: images/traditional-post.png
   content_position: right
   content: บัตรกำนัลที่เป็นกระดาษจะมีค่าใช้จ่ายเพิ่มเติมที่ 150 บาท โดยลูกค้าของคุณจะเป็นผู้ชำระค่าใช้จ่ายส่วนนี้
