@@ -21,7 +21,7 @@ banner:
 image_and_content_block_0:
   enable: true
   subtitle: ''
-  title: ซอฟต์แวร์บริหารบัตรกำนัลของขวัญ และระบบคูปองอิเล็กทรอนิกส์
+  title: ซอฟต์แวร์บัตรกำนัลของขวัญและคูปองอิเล็กทรอนิกส์
   image: images/gift-voucher-management.png
   content_position: right
   content: "ไม่ว่าคุณจะเป็นผู้เริ่มต้นใหม่ต่อการขายบัตรกำนัล หรือ เป็นผู้มีประสบการณ์ขายบัตรกำนัลอยู่แล้ว
