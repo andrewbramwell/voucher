@@ -24,7 +24,7 @@ image_and_content_block:
     you get the most out of our service. No matter how large your business is, our
     dedicated support scales with you.
 features_1:
-  title: คุณสมบัติเพิ่มประสิทธิภาพ
+  title: คุณสมบัติที่ตอบโจทย์ผู้บริหาร
   button: ''
   enable: true
   label: View All Features
@@ -34,8 +34,8 @@ features_1:
   - title: บริหารอย่างชาญฉลาด
     icon: fas fa-bullseye
     content: |-
-      เครื่องมือทางการตลาดนี้จะช่วยเพิ่มยอดขายให้ธุรกิจของคุณมากยิ่งขึ้น
-      ด้วยระบบวิเคราะห์ข้อมูลอัจฉริยะที่สนับสนุนการตัดสินใจ และจะช่วยเพิ่มยอดขายให้อย่างต่อเนื่อง
+      เครื่องมือทางการตลาดนี้ จะช่วยเพิ่มยอดขายให้ธุรกิจของคุณมากยิ่งขึ้น
+      ด้วยระบบวิเคราะห์ข้อมูลอัจฉริยะ ที่สนับสนุนการตัดสินใจ และจะช่วยเพิ่มยอดขายให้อย่างต่อเนื่อง
   - title: 'ดำเนินงานอัตโนมัติ '
     icon: fas fa-thumbs-up
     content: 'Voucherstore ช่วยขจัดปัญหาเรื่องความยุ่งยากในการแลกรับบัตรกำนัล การติดตามสถานะบัตรกำนัล
