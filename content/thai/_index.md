@@ -141,7 +141,7 @@ customer_info:
 image_and_content_block_3:
   enable: true
   subtitle: ''
-  title: ปลอดภัยด้วยระบบรับชำระเงินของ Stripe
+  title: ให้ทุกธุรกรรมการเงินของคุณมีปลอดภัย ด้วยระบบรับชำระเงินของ Stripe
   image: images/stripe.png
   content_position: left
   content: "Voucherstore รับชำระเงินผ่านระบบของ Stripe ซึ่งเป็นแพล็ตฟอร์มอีคอมเมิร์ซที่ได้รับความนิยมทั่วโลก
