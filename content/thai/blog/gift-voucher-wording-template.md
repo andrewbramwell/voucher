@@ -1,5 +1,5 @@
 ---
-title: การใช้คำในเทมเพลตบัตรกำนัล
+title: การใช้คำในเทมเพลตบัตรกำนัลของขวัญ
 date: 2022-04-28T09:30:21.000+00:00
 image: images/blog/gift-voucher-wording-template.png
 author: Kristira-R
