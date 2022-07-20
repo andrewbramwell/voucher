@@ -1,5 +1,5 @@
 ---
-title: ไอเดียการสร้างแพ็คเกจสำหรับโรงแรม
+title: ไอเดียการสร้างแพ็คเกจสำหรับธุรกิจการโรงแรม
 date: 2022-06-21T00:30:21.000+00:00
 image: images/blog/hotel-package-ideas.jpg
 author: Kristira-R
