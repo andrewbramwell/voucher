@@ -1,5 +1,5 @@
 ---
-title: 'Voucherstore แจ้งประกาศถึงคุณสมบัติการสั่งซื้อรายครั้งจำนวนมาก (Bulk orders) '
+title: 'Voucherstore แจ้งประกาศถึงคุณสมบัติ การสั่งซื้อรายครั้งจำนวนมาก (Bulk orders) '
 date: 2022-07-07T09:30:21.000+00:00
 image: images/blog/new-feature.png
 author: Kristira-R
