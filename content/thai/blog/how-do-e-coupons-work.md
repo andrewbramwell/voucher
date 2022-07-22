@@ -1,5 +1,5 @@
 ---
-title: E-coupon หรือ คูปองอิเล็กทรอนิกส์ทำงานอย่างไร?
+title: E-coupon ทำงานอย่างไร?
 date: 2022-05-10T00:30:21.000+00:00
 image: images/blog/how-do-e-coupons-work.png
 author: Kristira-R
