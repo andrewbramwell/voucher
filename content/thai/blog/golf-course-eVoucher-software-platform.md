@@ -1,5 +1,5 @@
 ---
-title: แพลตฟอร์มบัตรกำนัลของขวัญสำหรับธุรกิจสนามกอล์ฟ
+title: แพลตฟอร์มบัตรกำนัลของขวัญธุรกิจสนามกอล์ฟ
 date: 2022-05-23T09:30:21.000+00:00
 image: images/blog/golf-course-voucher.png
 author: Kristira-R
