@@ -1,5 +1,5 @@
 ---
-title: วิธีการขายบัตรกํานัลและคูปองในร้านค้าของคุณ
+title: วิธีขายบัตรกํานัลและคูปองในร้านค้าของคุณ
 date: 2022-02-18T09:30:21.000+00:00
 image: images/blog/sell-gift-vouchers-inhouse.png
 author: Kristira-R
