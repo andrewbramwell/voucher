@@ -15,7 +15,7 @@ banner:
     enable: true
     label: "Visit Golf Demo Store"
     icon: "fas fa-arrow-right"
-    link: "https://golf.voucherstore.co.th/"
+    link: "https://golf.voucherstore.io/"
   video_button:
     enable: true
     label: "Watch video"
