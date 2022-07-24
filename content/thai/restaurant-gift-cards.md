@@ -13,7 +13,7 @@ banner:
     enable: true
     label: เยี่ยมชมร้านอาหารตัวอย่าง
     icon: fas fa-arrow-right
-    link: https://restaurant.voucherstore.co.th/?lang=th_TH
+    link: https://restaurant.voucherstore.io/?lang=th_TH
   video_button:
     enable: true
     label: รับชมวิดีโอ
