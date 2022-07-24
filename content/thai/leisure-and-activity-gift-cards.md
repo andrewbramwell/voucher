@@ -13,7 +13,7 @@ banner:
     enable: true
     label: เยี่ยมชมสนามกอล์ฟตัวอย่าง
     icon: fas fa-arrow-right
-    link: https://golf.voucherstore.co.th/?lang=th_TH
+    link: https://golf.voucherstore.io/?lang=th_TH
   video_button:
     enable: true
     label: " รับชมวิดีโอ"
