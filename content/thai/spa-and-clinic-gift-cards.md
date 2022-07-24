@@ -13,7 +13,7 @@ banner:
     enable: true
     label: เยี่ยมชมคลินิกตัวอย่าง
     icon: fas fa-arrow-right
-    link: contact/
+    link: https://spaclinic.voucherstore.io/?lang=th_TH
   video_button:
     enable: true
     label: รับชมวิดีโอ
