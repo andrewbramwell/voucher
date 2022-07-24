@@ -12,7 +12,7 @@ banner:
     enable: true
     label: เยี่ยมชมโรงแรมตัวอย่าง
     icon: fas fa-arrow-right
-    link: https://hotel.voucherstore.co.th/?lang=th_TH
+    link: https://hotel.voucherstore.io/?lang=th_TH
   video_button:
     enable: true
     label: รับชมวิดีโอ
