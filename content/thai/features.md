@@ -25,7 +25,7 @@ image_and_content_block:
     you get the most out of our service. No matter how large your business is, our
     dedicated support scales with you.
 features_1:
-  title: คุณสมบัติที่ตอบโจทย์คุณ
+  title: คุณสมบัติที่ตอบโจทย์เจ้าของธุรกิจ
   button: ''
   enable: true
   label: View All Features
