@@ -15,7 +15,7 @@ banner:
     enable: true
     label: "Visit Clinic Demo Store"
     icon: "fas fa-arrow-right"
-    link: "contact/"
+    link: "https://spaclinic.voucherstore.io/"
   video_button:
     enable: true
     label: "Watch video"
