@@ -15,7 +15,7 @@ banner:
     enable: true
     label: "Visit Restaurant Demo Store"
     icon: "fas fa-arrow-right"
-    link: "https://restaurant.voucherstore.co.th/"
+    link: "https://restaurant.voucherstore.io/"
   video_button:
     enable: true
     label: "Watch video"
